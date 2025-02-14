@@ -2,11 +2,11 @@
 //esri community post by @SteveRichards1 :  https://community.esri.com/t5/arcgis-online-questions/arcade-data-expression-create-dictionary-from/td-p/1156443//
 //and GitHub: https://github.com/Esri/arcade-expressions/blob/master/dashboard/dashboard_data/SpatialAggregation.md//
 
-var portalObj = Portal('https://portal/gis')
+var portalObj = Portal('https://portal/gis')  //enter GIS Portal 
 // ItemID
 var wells_itemID = '*****'   //itemID
 //Wells Layer - Points featureset
-var pt_fs = FeatureSetByPortalItem(portalObj, wells_itemID, 0, ['uwi', 'well_name', 'province', 'region', 'sub_region', 'operator'], true)
+var pt_fs = FeatureSetByPortalItem(portalObj, wells_itemID, 0, ['uwi', 'well_name', 'province', 'region', 'sub_region', 'operator'], true)  
 
 //Wildfire Buffer - Polygon featureset
 var buffer_ID = '*****'   //itemID
