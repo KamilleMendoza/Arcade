@@ -9,7 +9,7 @@ if (IsEmpty(originFeature)) {
 }
 // Define the target table
 
-var relTable = "whgis.sde.MOSAIC_STICK_BH_COUNT_P"
+var relTable = "related table"
 
 
 
